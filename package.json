@@ -1,7 +1,7 @@
 {
   "name": "astolfoaim.desktop",
   "productName": "AstolfoAim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Simple App that loads an arbitrary URL with a loading screen while waiting...",
   "main": ".webpack/main",
   "scripts": {
