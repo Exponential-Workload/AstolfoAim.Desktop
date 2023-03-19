@@ -71,7 +71,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: [build-ubunut,build-marcos,build-wombat]
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

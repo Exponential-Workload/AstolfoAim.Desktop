@@ -17,8 +17,11 @@ const config: ForgeConfig = {
   },
   rebuildConfig: {},
   makers: [
-    new MakerSquirrel({}),
-    new MakerZIP({}, ['darwin', 'linux']),
+    new MakerSquirrel({
+      iconUrl: 'https://aim.femboy.cafe/favicon.png',
+      remoteReleases: ''
+    }),
+    new MakerZIP({}, ['darwin', 'linux', 'win32']),
     new MakerDeb({
       options: {
         bin: binaryName
