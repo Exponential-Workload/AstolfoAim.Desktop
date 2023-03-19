@@ -44,6 +44,18 @@ const config: ForgeConfig = {
       },
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'Exponential-Workload',
+          name: 'AstolfoAim.Desktop'
+        },
+        prerelease: false
+      }
+    }
+  ]
 };
 
 export default config;

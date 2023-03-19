@@ -23,5 +23,6 @@ export const mainConfig: Configuration = {
         { from: path.resolve(__dirname, "src/static/"), to: path.resolve(__dirname, '.webpack/main/static'), context: 'src/static/' }, // if u wanna serve static content from a new folder "src/app"
       ],
     }),
-  ]
+  ],
+]
 };
