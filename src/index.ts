@@ -31,6 +31,7 @@ const createWindow = (): void => {
     backgroundColor: '#1a1a1a',
     hasShadow: false,
     roundedCorners: true,
+    alwaysOnTop: true,
     // if you want to handle your own taskbar:
     // transparent: true,
     // frame: false,
