@@ -1,6 +1,6 @@
 {
-  "name": "astolfoaim desktop",
-  "productName": "AstolfoAim Desktop",
+  "name": "astolfoaim.desktop",
+  "productName": "AstolfoAim",
   "version": "1.0.0",
   "description": "A Simple App that loads an arbitrary URL with a loading screen while waiting...",
   "main": ".webpack/main",
@@ -50,5 +50,5 @@
     "electron-squirrel-startup": "^1.0.0",
     "fs-extra": "^11.1.0"
   },
-  "displayName": "AstolfoAim Desktop"
+  "displayName": "AstolfoAim"
 }
