@@ -36,10 +36,12 @@ const createWindow = (): void => {
     // transparent: true,
     // frame: false,
   });
+  mainWindow.setAlwaysOnTop(true, 'screen-saver')
   console.log(`${prefix} Loading Loader...`);
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
   console.log(`${prefix} Loading App...`);
   mainWindow.loadURL(readFileSync(path.resolve(__dirname, 'static', 'url.txt'), 'utf-8'));
+  mainWindow.setTitle('AstofloAim')
 };
 
 // This method will be called when Electron has finished

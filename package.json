@@ -1,8 +1,8 @@
 {
   "name": "astolfoaim.desktop",
   "productName": "AstolfoAim",
-  "version": "1.0.1",
-  "description": "A Simple App that loads an arbitrary URL with a loading screen while waiting...",
+  "version": "1.0.2",
+  "description": "AstolfoAim Aimbot - https://aim.femboy.cafe",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
